@@ -1,0 +1,36 @@
+@media only screen and (orientation: portrait) {
+    body {
+      height: 100%;
+      overflow: hidden;
+    }
+    .rotate {display: block;}
+    .sectionmain {display: none;}
+    .sectionfirst {display: none;}
+    .sectionsecond {display: none;}
+    .sectionthird {display: none;}
+  }
+  
+@media only screen and (orientation: landscape) {
+    .rotate {display: none;}
+}
+
+/* @media screen and (min-width: 1921px) {
+  
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+
+}
+
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+   
+}
+
+@media screen and (max-width: 414px) {
+
+} */
